@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Video Player</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+            background-color: #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Video Player</h1>
+    <video controls width="100%" poster="/api/placeholder/800/450">
+        <source src="jul24.mp4" type="video/mp4">
+        <source src="jul24.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+    <p>Tap or click the video to play/pause</p>
+</body>
+</html>
